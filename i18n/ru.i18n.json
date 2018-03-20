@@ -1,0 +1,123 @@
+{
+  "components": {
+    "userMenu": {
+      "logout": "Выйти",
+      "login": "Войти",
+      "join": "Регистрация"
+    },
+    "connectionNotification": {
+      "tryingToConnect": "Попытка соединения",
+      "connectionIssue": "Возможна ошибка соединения"
+    },
+    "listHeader": {
+      "deleteConfirm": "Вы уверены, что хотите удалить этот документ?",
+      "selectAction": "Выберите действие",
+      "makePublic": "Сделать публичным",
+      "makePrivate": "Сделать приватным",
+      "delete": "Удалить",
+      "makeListPublic": "Сделать документ публичным",
+      "makeListPrivate": "Сделать документ приватным",
+      "deleteList": "Удалить документ",
+      "cancel": "Отмена",
+      "typeToAdd": "Начните печатать чтобы добавить новые задачи."
+    },
+    "listList": {
+      "newList": "Новый документ",
+      "newListError": "Не удалось создать документ."
+    },
+    "loading": {
+      "loading": "Загрузка..."
+    },
+    "mobileMenu": {
+      "showMenu": "Показать меню"
+    },
+    "todoItem": {
+      "taskName": "Название задачи"
+    }
+  },
+  "pages": {
+    "authPageJoin": {
+      "emailRequired": "Требуется Email",
+      "passwordRequired": "Требуется пароль",
+      "passwordConfirm": "Подтвердите пароль",
+      "join": "Зарегистрироваться.",
+      "joinReason": "Зарегистрировавшиеся могут создавать приватные документы",
+      "yourEmail": "Ваш Email",
+      "password": "Пароль",
+      "confirmPassword": "Подтвердите пароль",
+      "joinNow": "Регистрация",
+      "haveAccountSignIn": "Есть учётная запись? Войдите в систему."
+    },
+    "authPageSignIn": {
+      "emailRequired": "Требуется Email",
+      "passwordRequired": "Требуется пароль",
+      "signIn": "Войти",
+      "signInReason": "Войдя в систему вы сможете создавать приватные документы",
+      "yourEmail": "Ваш Email",
+      "password": "Пароль",
+      "signInButton": "Войти",
+      "needAccount": "Нужна учётная запись? Создайте её сейчас."
+    },
+	"authPageForgotPass": {
+      "emailRequired": "Введите Email",
+      "forgotpassReason": "Введите Email, на него будет отправлена ссылка на восстановление пароля",
+      "yourEmail": "Ваш Email",
+      "forgotpassButton": "Восстановить",
+      "needAccount": "Забыли пароль?"
+    },
+	"authPageResetPassword": {
+	  "passwordRequired": "Введите новый пароль.",
+	  "forgotpass": "Введите новый пароль.",
+      "forgotpassReason": "Введите безопасный пароль, который Вы нигде не используете.",
+	  "yourPassword": "Новый пароль",
+      "forgotpassButton": "Сменить пароль"
+	},
+    "listPage": {
+      "noTasks": "Здесь нет задач.",
+      "addAbove": "Добавить новую задачу используя поле ввода сверху.",
+      "loading": "Загрузка задач..."
+    },
+    "notFoundPage": {
+      "pageNotFound": "Страница не найдена."
+    }
+  },
+  "api": {
+    "lists": {
+      "insert": {
+        "list": "Список"
+      },
+      "makePrivate": {
+        "notLoggedIn": "Для создания, необходимо войти в учётную запись.",
+        "lastPublicList": "Невозможно сделать последний публичный список приватным."
+      },
+      "makePublic": {
+        "notLoggedIn": "Необходимо авторизоваться.",
+        "accessDenied": "У вас нет прав доступа для изменения документа."
+      },
+      "updateName": {
+        "accessDenied": "У вас нет прав доступа для изменения документа."
+      },
+      "remove": {
+        "accessDenied": "'У вас нет прав доступа для удаления документа.'",
+        "lastPublicList": "Невозможно удалить последний публичный список."
+      }
+    },
+    "todos": {
+      "insert": {
+        "accessDenied": "Невозможно добавить новые задачи в приватный список, не принадлежащий Вам."
+      },
+      "setCheckedStatus": {
+        "accessDenied": "Невозможно редактировать задачи в приватном списке, не принадлежащем Вам."
+      },
+      "updateText": {
+        "accessDenied": "Невозможно редактировать задачи в приватном списке, не принадлежащем Вам."
+      },
+      "remove": {
+        "accessDenied": "Невозможно удалять задачи из приватного списка, не принадлежащего Вам."
+      },
+      "item": {
+        "taskName": "Название задачи"
+      }
+    }
+  }
+}
